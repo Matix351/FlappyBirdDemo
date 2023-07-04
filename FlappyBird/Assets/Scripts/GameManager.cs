@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     private int score;
 
-    private bool firstrun = false;
+    //private bool firstrun = false;
 
     private void Awake()
     {
