@@ -25,6 +25,15 @@ public class GameManager : MonoBehaviour
         Pause();
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+
+        }
+    }
+
     public void Play()
     {
         score = 0;
@@ -50,6 +59,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f ;
         player.enabled = false;
+
     }
 
 
@@ -60,6 +70,11 @@ public class GameManager : MonoBehaviour
         playButton.SetActive(true);
 
         Pause();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+
+        }
     }
 
     public void IncreaseScore()
