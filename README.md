@@ -2,7 +2,7 @@
 
 Welcome to the Flappy Bird Game! This is a remake of the popular mobile game developed in Unity, where you control a bird to navigate through obstacles.
 
-The game was developed using Unity version X.X.X
+The game was developed using Unity version 2022.3.2f1
 
 ## Installation
 
